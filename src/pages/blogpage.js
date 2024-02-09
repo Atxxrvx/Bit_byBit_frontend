@@ -1,9 +1,6 @@
 import { useContext } from 'react';
 import { genContext } from '../contexts/GeneralContext';
 import Blog from '../components/BlogPage'
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const BlogPage = () => {
 

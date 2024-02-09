@@ -1,6 +1,3 @@
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 const Footer = () => {
     return (
         <footer className="bg-white text-gray py-4 text-center">

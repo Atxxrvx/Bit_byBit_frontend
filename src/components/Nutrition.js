@@ -1,8 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
 import { genContext } from '../contexts/GeneralContext';
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const Nutrition = () => {
   const { nutri } = useContext(genContext);

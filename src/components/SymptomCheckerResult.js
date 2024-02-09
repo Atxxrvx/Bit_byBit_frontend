@@ -1,9 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { genContext } from '../contexts/GeneralContext';
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const ResultsPage = () => {
     const [bad, setBad] = useState(true);
@@ -66,8 +63,9 @@ const ResultsPage = () => {
                     </button>
                 </div>
             </nav>
+            <div className="bg-[url('https://i.ibb.co/sKhvTHc/image.png')]">
             {bad ? (
-                <div className="container mx-auto mt-8">
+                <div className="container mx-auto pt-8">
                     <h1 className="text-3xl text-center font-bold sm:mb-11 mb-4">Test Results</h1>
 
                     <div className="overflow-x-auto">
@@ -97,6 +95,7 @@ const ResultsPage = () => {
                     </div>
                 </div>
             ) : (<div>Nothing to display</div>)}
+            </div>
 
         </div>
     );

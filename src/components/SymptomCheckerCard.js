@@ -1,7 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react';
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 import {
   Card,
   CardContent,
@@ -68,7 +65,7 @@ const SymptomCheckerCard = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[url('https://i.ibb.co/sKhvTHc/image.png')]">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
         <Card style={{ width: '100%', maxWidth: '500px', padding: '16px' }}>
           <CardContent>

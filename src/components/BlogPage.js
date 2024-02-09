@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import noimg from '../images/noimg.png';
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
+import noimg from '../images/noimg.png'
 
 const Blog = () => {
   const [blogs, setBlogs] = useState(null);

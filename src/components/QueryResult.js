@@ -1,9 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { genContext } from '../contexts/GeneralContext';
 import { LocationContext } from '../contexts/LocationContext';
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const QueryResult = () => {
 
@@ -46,7 +43,7 @@ const QueryResult = () => {
         else {
             const fetchservice = async () => {
                 try {
-                    const url = `/api/nearby/?latitude=${Lat}&longitude=${Long}&query=${query}&pincode=${pincode}`;
+                    const url = `https://bitbybit-backend.onrender.com/api/nearby/?latitude=${Lat}&longitude=${Long}&query=${query}&pincode=${pincode}`;
                     const response = await fetch(url, {
                         method: 'GET',
                         headers: {

@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const ViewAppointments = () => {
   const [list, setList] = useState([]);

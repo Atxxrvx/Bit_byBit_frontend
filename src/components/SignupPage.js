@@ -2,9 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useSignup } from "../hooks/useSignup"
-import '../styles/App.css';
-import '../styles/Appointment.css';
-import '../styles/Card.css';
 
 const SignupPage = () => {
     const [email, setEmail] = useState('');
