@@ -236,7 +236,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-
+appointImg.jpg
 .appointimg {
   width: 50%;
   height: 50vh;
@@ -249,7 +249,7 @@ a {
 .imgholder {
   height: auto;
   width: 100%;
-  background-image: url("../images/appointImg.jpg");
+  /* background-image: url("../images/appointImg.jpg"); */
   background-size: cover;
   position: sticky;
 }
