@@ -68,8 +68,8 @@ function App() {
   return (
     <div>
       {!loading && <div className="App">
-        <Navbar />
         <BrowserRouter>
+        <Navbar />
           <LocationContext.Provider value={{ Lat, Long, setLat, setLong, fetchLocation }}>
             <genContext.Provider value={{ symptoms, setSymptoms, gender, setGender, yearOfBirth, setYearOfBirth, role, setDoctor, doctor, user, open, setOpen, setQuery, query, pincode, setPincode, setQuerytype, nutri, setNutri }}>
 
