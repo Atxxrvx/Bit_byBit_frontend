@@ -37,7 +37,7 @@ const SymptomCheckerCard = () => {
   };
 
   const getAllSymptoms = async () => {
-    const response = await fetch("/symptom/getallSymptoms");
+    const response = await fetch("https://bitbybit-backend.onrender.com/symptom/getallSymptoms");
     const json = await response.json();
     setDropdownSymptoms(json.data);
   };

@@ -9,7 +9,7 @@ const Blog = () => {
     const fetchBlogs = async () => {
       try {
         if (!blogs) {
-          const response = await fetch('/api/news/general/');
+          const response = await fetch('https://bitbybit-backend.onrender.com/api/news/general/');
           if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
           }

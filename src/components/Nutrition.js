@@ -32,7 +32,7 @@ const Nutrition = () => {
       const fetchNutrition = async () => {
         const send = { foodQuery: nutri };
         try {
-          const response1 = await fetch('/api/nutrition/', {
+          const response1 = await fetch('https://bitbybit-backend.onrender.com/api/nutrition/', {
             method: 'POST',
             body: JSON.stringify(send),
             headers: {

@@ -11,7 +11,7 @@ const ViewAppointments = () => {
     const userrole = role;
 
     axios
-      .get("/appointmentinfo/getappointments", {
+      .get("https://bitbybit-backend.onrender.com/appointmentinfo/getappointments", {
         params: {
           username: username,
           userrole: userrole,

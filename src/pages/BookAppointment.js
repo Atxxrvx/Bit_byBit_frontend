@@ -11,7 +11,7 @@ const BookAppointment = () => {
   const getusers = async () => {
     const params = filter ? { expertise: filter } : {};
     try {
-      const response = await axios.get("/appointmentinfo/getDoctors", { params });
+      const response = await axios.get("https://bitbybit-backend.onrender.com/appointmentinfo/getDoctors", { params });
       setUserlist(response.data);
     } catch (error) {
       console.log(error);

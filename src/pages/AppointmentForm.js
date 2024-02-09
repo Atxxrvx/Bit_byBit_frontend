@@ -24,7 +24,7 @@ const AppointmentForm = () => {
             Drname: DrName,
         };
 
-        axios.post("/appointmentinfo/appointmentData", appointData)
+        axios.post("https://bitbybit-backend.onrender.com/appointmentinfo/appointmentData", appointData)
             .then((res) => {
                 console.log(res.data);
                 alert("Appointment scheduled");
