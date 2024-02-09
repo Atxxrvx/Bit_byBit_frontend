@@ -1,6 +1,9 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { genContext } from '../contexts/GeneralContext';
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 
 const NutriSearch = () => {
   const { setNutri } = useContext(genContext);

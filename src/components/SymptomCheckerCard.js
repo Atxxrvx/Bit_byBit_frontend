@@ -1,4 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 import {
   Card,
   CardContent,

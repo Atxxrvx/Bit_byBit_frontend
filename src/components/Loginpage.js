@@ -1,7 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useLogin } from "../hooks/useLogin"
+import { useLogin } from "../hooks/useLogin";
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 
 const LoginPage = () => {
 

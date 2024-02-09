@@ -2,6 +2,9 @@ import { useContext } from "react";
 import { genContext } from "../contexts/GeneralContext";
 import { Link } from 'react-router-dom'
 import { LocationContext } from "../contexts/LocationContext";
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 
 const HospitalQuery = () => {
     const { setQuerytype, setQuery, setPincode, query, pincode } = useContext(genContext)

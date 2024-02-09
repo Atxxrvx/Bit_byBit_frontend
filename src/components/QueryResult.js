@@ -1,6 +1,9 @@
 import { useContext, useEffect, useState } from 'react';
 import { genContext } from '../contexts/GeneralContext';
 import { LocationContext } from '../contexts/LocationContext';
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 
 const QueryResult = () => {
 

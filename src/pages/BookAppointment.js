@@ -2,6 +2,9 @@ import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { genContext } from "../contexts/GeneralContext";
+import '../styles/App.css';
+import '../styles/Appointment.css';
+import '../styles/Card.css';
 
 const BookAppointment = () => {
   const [userlist, setUserlist] = useState([]);
