@@ -36,10 +36,6 @@ function App() {
 
   useEffect(() => {
     setLoading(false);
-    window.scrollTo({
-      top: 0,
-      behavior: 'auto'
-  })
   }, [])
   const fetchLocation = async () => {
     if ("geolocation" in navigator) {
@@ -72,12 +68,12 @@ function App() {
   return (
     <div>
       {!loading && <div className="App">
+        <Navbar />
         <BrowserRouter>
           <LocationContext.Provider value={{ Lat, Long, setLat, setLong, fetchLocation }}>
             <genContext.Provider value={{ symptoms, setSymptoms, gender, setGender, yearOfBirth, setYearOfBirth, role, setDoctor, doctor, user, open, setOpen, setQuery, query, pincode, setPincode, setQuerytype, nutri, setNutri }}>
 
               <div className="pages">
-                <Navbar />
                 <Routes>
                   <Route path="*" element={<NotFound />} />
                   <Route path="/login" element={!user ? <Login /> : <Navigate to='/' />} />
@@ -94,11 +90,11 @@ function App() {
                   <Route path='/symptomres' element={user ? <SymptomCheckerResult /> : <Navigate to='/login' />} />
                   <Route path='/' element={<Home />} />
                 </Routes>
+                <Footer />
               </div>
             </genContext.Provider>
           </LocationContext.Provider>
         </BrowserRouter>
-        <Footer />
       </div>}
     </div>
 
