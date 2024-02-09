@@ -36,6 +36,10 @@ function App() {
 
   useEffect(() => {
     setLoading(false);
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+  })
   }, [])
   const fetchLocation = async () => {
     if ("geolocation" in navigator) {
