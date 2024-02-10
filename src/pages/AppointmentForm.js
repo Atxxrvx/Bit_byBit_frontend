@@ -18,7 +18,7 @@ const AppointmentForm = () => {
         e.preventDefault();
         const appointData = {
             Name: issue,
-            date: new Date(date).toISOString(),  // Convert date to ISO string
+            date: new Date(date).toISOString(),
             time: Time,
             PName: patientName,
             Drname: DrName,

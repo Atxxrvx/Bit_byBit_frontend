@@ -66,11 +66,11 @@ const ResultsPage = () => {
             <div className="bg-[url('https://i.ibb.co/sKhvTHc/image.png')]">
             {bad ? (
                 <div className="container mx-auto pt-8">
-                    <h1 className="text-3xl text-center font-bold sm:mb-11 mb-4">Test Results</h1>
+                    <h1 className="text-3xl text-center font-bold sm:mb-11 mb-4 ">Test Results</h1>
 
-                    <div className="overflow-x-auto">
+                    <div className="overflow-x-auto pb-11">
                         {!display ? (<>Loading</>):(
-                            <table className="min-w-full bg-white border border-gray-300">
+                            <table className="min-w-full bg-white border  border-gray-300">
                             <thead>
                                 <tr className="bg-gray-200">
                                     <th className="py-2 px-4 border-b">Disease</th>

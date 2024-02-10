@@ -16,7 +16,7 @@ const LoginPage = () => {
         setEmail('');
         setPassword('')
     }
-
+//loginimg
     return (
         <div>
             <div className='transition-all w-4/5 m-auto'>
@@ -42,11 +42,11 @@ const LoginPage = () => {
                         </div>
                     </div>
                     <div className="transition-all image hidden lg:block ">
-                        <div className='transition-all loginimg overflow-hidden max-w-[800px] object-contain rounded-r-xl'>
+                        <div style={{ backgroundImage: 'url("https://source.unsplash.com/400x500/?health")' }} className='transition-all overflow-hidden max-w-[800px] object-contain rounded-r-xl'>
                             <div className="transition-all z-10 w-[400px] h-[500px] flex justify-center items-center">
                                 <div className='transition-all w-full h-full m-auto rounded-r-xl'>
                                     <div className='transition-all flex flex-col justify-center h-full bg-black bg-opacity-30 p-8 rounded-r-xl'>
-                                        <div className='transition-all font-extrabold text-5xl font-body my-2  text-[#4caf50]'>New Here?</div>
+                                        <div className='transition-all font-extrabold text-5xl font-body my-2  text-white'>New Here?</div>
                                         <div className='transition-all  text-white py-1 px-1'>
                                             Signup now and take the first step towards a healthier and happier you!
                                         </div>

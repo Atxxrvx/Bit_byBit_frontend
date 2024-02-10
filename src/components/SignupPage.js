@@ -115,11 +115,11 @@ const SignupPage = () => {
                         </div>
                     </div>
                     <div className="transition-all image hidden lg:block ">
-                        <div className='transition-all loginimg overflow-hidden max-w-[800px] object-contain rounded-r-xl'>
+                        <div style={{ backgroundImage: 'url("https://source.unsplash.com/400x500/?health")' }} className='transition-all overflow-hidden max-w-[800px] object-contain rounded-r-xl'>
                             <div className="transition-all z-10 w-[400px] h-[500px] flex justify-center items-center">
                                 <div className='transition-all w-full h-full m-auto rounded-r-xl'>
                                     <div className='transition-all flex flex-col justify-center h-full bg-black bg-opacity-30 p-8 rounded-r-xl'>
-                                        <div className='transition-all font-extrabold font-body text-5xl my-2 text-green-300'>Already a member?</div>
+                                        <div className='transition-all font-extrabold font-body text-5xl my-2 text-white'>Already a member?</div>
                                         <div className='transition-all text-white py-1 px-1'>
                                             Login now and take the first step towards a healthier and happier you!
                                         </div>

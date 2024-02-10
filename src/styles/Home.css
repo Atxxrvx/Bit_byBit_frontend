@@ -33,20 +33,15 @@
 .login-btn {
     background-color: #4caf50;
     color: #fff;
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
     border: none;
     border-radius: 25px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: none;
 }
 
 /* Services Section */
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-}
+
 
 .service-item {
     background-color: #f0f0f0;

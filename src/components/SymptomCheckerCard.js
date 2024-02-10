@@ -161,7 +161,7 @@ const SymptomCheckerCard = () => {
 
               <Box mt={2}>
                 <Button variant="contained" color="primary" onClick={handleSeeResults} fullWidth style={{ backgroundColor: '#4CAF50' }}>
-                  <Link className='w-ful h-full' to='/symptomres'>See Results</Link>
+                  <Link className='w-ful h-full text-white' to='/symptomres'>See Results</Link>
                 </Button>
               </Box>
             </form>

@@ -104,7 +104,7 @@ const QueryResult = () => {
                                 <div className="grid grid-cols-1">
                                     {Queryres.map((queryres) => (
                                         <div onClick={(e) => {
-                                            e.preventDefault();  setMapquery(`${queryres.poi.name}, ${queryres.address.municipality}, ${queryres.address.countrySecondarySubdivision}, ${queryres.address.postalCode}`); window.scrollTo({
+                                            e.preventDefault(); setMapquery(`${queryres.poi.name}, ${queryres.address.municipality}, ${queryres.address.countrySecondarySubdivision}, ${queryres.address.postalCode}`); window.scrollTo({
                                                 top: document.body.scrollHeight,
                                                 behavior: 'smooth',
                                             });

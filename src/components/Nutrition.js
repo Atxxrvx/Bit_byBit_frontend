@@ -63,7 +63,7 @@ const Nutrition = () => {
   }, [nutri]);
 
   return (
-    <div className="bg-[url('https://images.pexels.com/photos/4021870/pexels-photo-4021870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-no-repeat min-h-screen">
+    <div style={{ backgroundImage: 'url("https://source.unsplash.com/1920x1080/?food")' }} className=" bg-cover bg-no-repeat min-h-screen">
       <div className="bg-transparent min-h-screen flex flex-col items-center justify-center">
         {nutrientData.length === 0 ? (<div className='font-bold text-2xl'>Loading...</div>) : (
           <div className="bg-white mt-8 w-full md:w-3/4 shadow-lg rounded-md p-8 mb-6 overflow-x-auto">
