@@ -45,8 +45,8 @@ const Home = () => {
                         <Link to="/nutrisearch" className="service-link">Learn More</Link>
                     </div>
                     <div className="service-item">
-                        <h2>Nearby Hospitals</h2>
-                        <p>Discover Nearby Hospitals.</p>
+                        <h2>Nearby Services</h2>
+                        <p>Discover Nearby Health Services.</p>
                         <Link to="/genquery" className="service-link">Explore</Link>
                     </div>
                     <div className="service-item">
@@ -83,7 +83,7 @@ const Home = () => {
                     <ul className='text-center'>
                         <li><Link to="/bookappoint">Appointment Booking</Link></li>
                         <li><Link to="/blogs">Blogs</Link></li>
-                        <li><Link to="/genquery">Nearest Hospitals</Link></li>
+                        <li><Link to="/genquery">Nearest Services</Link></li>
                         <li><Link to="/nutrisearch">Nutrition Content</Link></li>
                         <li><Link to="/symptom">Symptom Checker</Link></li>
                         <li><Link to="/bmi">BMI Calculator</Link></li>
